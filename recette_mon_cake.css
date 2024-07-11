@@ -13,8 +13,8 @@
             }
             div.contenu {
                 background-color: white;
-                margin: 0px 10% 80px 10%;
-                padding: 30px;
+                margin: 40px 8px 40px 8px;
+                padding: 0px 8px 20px 8px;
                 box-shadow: 0px 0px 10px 10px rgba(0, 0,0 ,0.1);
             }
             .centre {
@@ -54,18 +54,18 @@
                 width: 100%;
                 color:white; 
                 background-color: #6C829DC0;
-                height: 80px;
+                height: 50px;
             }
             .info_div{
                 position: relative;
             }
             .info_table td{
                 text-align: center;
-                font-size: 14px;
+                font-size: 12px;
                 vertical-align: top;
             }
             .info_table th{
-                font-size: 16px;
+                font-size: 14px;
                 padding-bottom: 8px;
                 vertical-align: bottom;
             }
@@ -79,7 +79,7 @@
             }
 
             div.colonne{
-                width: 45%;
+                width: 100%;
                 margin-top: 20px;
             }
 
@@ -93,12 +93,8 @@
 
             div.colonne1 {
                 display: inline-block;
-                margin-right: 10%;
             }
-            div.colonne2 {
-                float: right;
-            }
-
+            
             div.border p{
                 text-align: center;
                 border: 1px solid #6C829D;
@@ -140,3 +136,39 @@
             * {
                 overflow: auto;
             }
+
+            /*Sytle ordinateur*/
+            @media only screen and (min-width: 768px) {
+                div.contenu{
+                    min-width: 350px;
+                    margin: 0px 10% 80px 10%;
+                    padding: 30px;
+                }
+                    .info_table{
+                    height: 80px;
+                } 
+                .info_table td{
+                    font-size: 14px;
+                }
+                .info_table th{
+                    font-size: 16px;
+                }
+                 div.colonne{
+                    width: 45%;
+                }
+
+                div.colonne1 {
+                    margin-right: 10%;
+                }
+                div.colonne2 {
+                    float: right;
+                }
+            }
+            @media only screen and (min-width: 900px) {
+                div.contenu{
+                   margin-left: auto;
+                   margin-right: auto;
+                   width: 750px;
+                }
+            }
+            
