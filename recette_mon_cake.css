@@ -24,11 +24,12 @@
             .centre_rec {
                 text-align: center;
                 width: 100%;
+                padding-top: 20px;
                 padding: 6px;
             }
              div.categorie {
                 margin-top: 60px;
-                margin-bottom: -17px;
+                margin-bottom: -54px;
             }
             h1 {
                 text-align: center;
@@ -163,12 +164,16 @@
                 div.colonne2 {
                     float: right;
                 }
+                div.categorie {
+                margin-top: 60px;
+                margin-bottom: -17px;
+            }
             }
             @media only screen and (min-width: 900px) {
                 div.contenu{
                    margin-left: auto;
                    margin-right: auto;
-                   width: 750px;
+                   width: 650px;
                 }
             }
             
